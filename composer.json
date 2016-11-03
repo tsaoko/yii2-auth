@@ -1,0 +1,31 @@
+{
+    "name": "tsaoko/yii2-auth",
+    "description": "yii2后台常用的角色与权限动态处理扩展",
+    "keywords": ["yii2", "framework", "auth", "role","router"],
+    "homepage": "https://github.com/tsaoko/yii2-auth",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/tsaoko/yii2-auth/issues?state=open",
+        "source": "https://github.com/tsaoko/yii2-auth"
+    },
+  "authors":[
+    {
+      "name": "UUTAN",
+      "email": "uutan@qq.com"
+    }
+  ],
+    "minimum-stability": "stable",
+    "require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": ">=2.0.6"
+    },
+  "autoload": {
+    "psr-4": {
+      "tsaoko\\yii2-auth\\": ""
+    }
+  },
+    "config": {
+        "process-timeout": 1800
+    }
+}
